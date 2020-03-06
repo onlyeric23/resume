@@ -2,7 +2,10 @@ $item-gap: 20px;
 $dot-length: 10px;
 
 .experience-item {
+
+  page-break-inside: avoid;
   display: grid;
+  
   grid-template:
     "bullet name"
     "bullet location"
