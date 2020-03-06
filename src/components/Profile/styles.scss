@@ -1,0 +1,13 @@
+.profile-block {
+  font-size: medium;
+
+  display: flex;
+
+  align-items: flex-end;
+
+  .headshot-container {
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+}

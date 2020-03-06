@@ -1,0 +1,82 @@
+$item-gap: 20px;
+$dot-length: 10px;
+
+.experience-item {
+  display: grid;
+  grid-template:
+    "bullet name"
+    "bullet location"
+    "bullet desc"
+    "bullet sub-desc" / auto 1fr;
+
+  .bullet {
+    grid-area: bullet;
+    width: 50px;
+    height: 100%;
+
+    @media (max-width: 480px) {
+      width: 30px;
+    }
+
+    &::before {
+      height: $dot-length;
+      width: $dot-length;
+      border-radius: 50%;
+    }
+
+    &::after {
+      width: 2px;
+      height: calc(100% - #{$dot-length} + #{$item-gap});
+      position: relative;
+    }
+
+    &::before,
+    &::after {
+      display: block;
+      content: "";
+      margin: 0 auto;
+      background-color: grey;
+      transform: translate(-10px, (30 - $dot-length) / 2);
+      color-adjust: exact;
+    }
+  }
+
+  .name {
+    grid-area: name;
+
+    font-size: 22px;
+    line-height: 1.4;
+  }
+
+  .location {
+    grid-area: location;
+
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .desc, .sub-desc {
+    grid-area: desc;
+
+    white-space: pre-line;
+  }
+
+  .desc {
+    font-size: smaller;
+  }
+
+  .sub-desc {
+    grid-area: sub-desc;
+    
+    font-size: small;
+    font-style: italic;
+  }
+}
+
+.experience-item:not(:last-child) {
+  padding-bottom: $item-gap;
+}
+
+.experience-item:last-child .bullet::after {
+  display: none;
+}

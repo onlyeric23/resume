@@ -1,0 +1,21 @@
+.page {
+  background: white;
+
+  @media screen {
+    padding: 2rem 1.5rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    max-width: 95%;
+    width: 960px;
+    box-shadow: 0px 4px 16px grey;
+    margin: 20px auto;
+    padding: 3rem 2.5rem;
+  }
+}
+
+.block {
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
