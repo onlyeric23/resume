@@ -24,15 +24,11 @@ export default [
     score: 4,
   },
   {
-    name: "Redux Saga",
-    score: 3.5,
-  },
-  {
     name: "Angular",
     score: 2,
   },
   {
-    name: "RxJs",
+    name: "RxJS",
     score: 2,
   },
   {
@@ -40,28 +36,12 @@ export default [
     score: 1,
   },
   {
-    name: "GatsbyJS",
-    score: 3,
-  },
-  {
     name: "CSS",
-    score: 4,
-  },
-  {
-    name: "SASS",
-    score: 4,
-  },
-  {
-    name: "LESS",
     score: 4,
   },
   {
     name: "NodeJS",
     score: 3,
-  },
-  {
-    name: "Sequelize",
-    score: 2,
   },
   {
     name: "SQL",
