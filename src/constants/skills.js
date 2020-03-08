@@ -5,19 +5,11 @@ export default [
   },
   {
     name: "TypeScript",
-    score: 5,
+    score: 4,
   },
   {
     name: "React",
     score: 5,
-  },
-  {
-    name: "React Native",
-    score: 3,
-  },
-  {
-    name: "Cordova",
-    score: 3,
   },
   {
     name: "Redux",
@@ -32,12 +24,16 @@ export default [
     score: 2,
   },
   {
-    name: "D3",
-    score: 1,
-  },
-  {
     name: "CSS",
     score: 4,
+  },
+  {
+    name: "React Native",
+    score: 3,
+  },
+  {
+    name: "Cordova",
+    score: 3,
   },
   {
     name: "NodeJS",

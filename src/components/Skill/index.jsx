@@ -10,8 +10,14 @@ import "./styles.scss"
 const Skill = ({ skills }) => {
   return (
     <div className="block skill-block">
-      <h2>Skill</h2>
+      <h2>
+        Skill{" "}
+        <span className="annotation">
+          *Stars represent relative skill levels.
+        </span>
+      </h2>
       <hr />
+
       <div className="row">
         {skills.map(skill => (
           <SkillItem name={skill.name} score={skill.score} key={skill.name} />
