@@ -15,7 +15,7 @@ const IndexPage = () => (
     <Profile {...profile} />
     <Skill skills={skills} />
     <Experience experiences={experiences} />
-    <Experience experiences={education} />
+    <Experience title="Education" experiences={education} />
   </Layout>
 )
 

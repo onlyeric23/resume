@@ -2,11 +2,10 @@ import React from "react"
 
 import "./styles.scss"
 
-const Experience = ({ experiences }) => {
-  
+const Experience = ({ title, experiences }) => {
   return (
     <div className="block experience-block">
-      <h2>Experience</h2>
+      <h2>{title || "Experience"}</h2>
       <hr />
       {experiences.map(exp => (
         <ExperienceItem {...exp} key={exp.name} />
