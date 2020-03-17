@@ -12,7 +12,7 @@ export default [
     desc: `● Developed a service platform to monitor vessels, schedule maintenance events, configure and watch alert notifications, and provide statistics.
     ● Built a mobile application to monitor a vessel, watch alert notifications independently.
     ● Built the corporate website from scratch.
-    ● Maintain back-end services`,
+    ● Maintain back-end services.`,
     subDesc: `Skills:
     React, React Native, Gatsby, Redux, Redux Saga, D3, Google Maps, SEO, NodeJS, PostgreSQL, Sequelize, Serverless, AWS, Typescript, BLE, WebSocket, Git, Zeplin, Webpack, LESS`,
   },
