@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Resume - Eric Lo`,
-    description: `Eric Lo\nFront-end and mobile developer\nTaipei, Taiwan\n+886 978878323\neric.lo.7823@gmail.com`,
+    description: `Eric Lo, Front-end and mobile developer, Taipei, Taiwan, +886 978878323, eric.lo.7823@gmail.com`,
     author: `eric.lo.7823@gmail.com`,
   },
   plugins: [
