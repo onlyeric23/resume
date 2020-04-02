@@ -1,14 +1,10 @@
 import React from "react"
-import Image from "../image"
 
 import "./styles.scss"
 
 const Profile = ({ name, title, phone, email, address }) => {
   return (
     <div className="block profile-block">
-      {/* <div className="headshot-container">
-        <Image />
-      </div> */}
       <div className="text">
         <h1>{name}</h1>
         <div>{title}</div>
