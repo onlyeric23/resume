@@ -1,5 +1,13 @@
 export default [
   {
+    name: "Freelancer, Frontend-end Engineer, 2014 ~",
+    location: "Taipei, Taiwan (Remote)"
+  },
+  {
+    name: "aetherAI Co. Ltd., Front-end Engineer, Apr 2020 ~",
+    location: "Taipei, Taiwan",
+  },
+  {
     name: "New Garden Co. Ltd., Front-end Engineer, Dec 2019 ~ Dec 2019",
     location: "Taipei, Taiwan",
     desc: "● Developed a CMS platform.",
