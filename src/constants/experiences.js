@@ -1,9 +1,5 @@
 export default [
   {
-    name: "Freelancer, Frontend-end Engineer, 2014 ~",
-    location: "Taipei, Taiwan (Remote)"
-  },
-  {
     name: "aetherAI Co. Ltd., Front-end Engineer, Apr 2020 ~",
     location: "Taipei, Taiwan",
   },
